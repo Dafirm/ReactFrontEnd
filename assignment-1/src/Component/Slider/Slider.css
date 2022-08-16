@@ -1,0 +1,29 @@
+.playGuitar{
+
+}
+.playGuitar__content{
+
+}
+.playGuitar__img{
+    border: 1px solid var(--color-navMenuButton);
+    margin: none;
+    padding: none;
+    position: relative;
+    top: 10px;
+ }
+
+ h3{
+   margin-top: 70px;
+   font-size: 25px;
+   margin-bottom: 20px;
+   font-weight: 500;
+  }
+
+ .playGuitar__text{
+    text-align: center;
+    margin-top: 60px;
+    top: 50%;
+    left: 50%;
+    color: var(--color--white);
+    
+ }
