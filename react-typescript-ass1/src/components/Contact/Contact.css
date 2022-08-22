@@ -1,0 +1,35 @@
+.contact {
+    margin-top: 100px;
+    margin: 50 auto;
+}
+
+.contact__form {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+form {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input,
+textarea {
+    width: 150%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 1px solid white;
+    resize: none;
+    color: var(--color--white);
+
+}
+
+button:hover {
+    background-color: var(--color--white);
+    color: var(--color-background);
+}

@@ -1,0 +1,22 @@
+.blog__container{
+    margin-top: 40px;
+   display: flex;
+   justify-content: center;
+   align-content: space-around;
+   }
+
+.blog__img{
+    margin-right: 50px;
+    border: 1px solid var(--color-navMenuButton); 
+    width: 400px;
+    height: 400px;
+ }
+ .blog__container--content{
+    text-align: center;
+    margin-top: 20px;
+ }
+ .button:hover{ 
+    background-color: var(--color-white);
+    color: var(--color-background);
+}
+    

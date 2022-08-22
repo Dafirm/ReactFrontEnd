@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-backgroundColor2);
+    color: black;
+}
+
+.socials {
+    display: flex;
+
+    background: transparent;
+    padding: 0.3rem;
+    gap: 3rem;
+
+    color: var(--color-backgroundColor1);
+    border-radius: 0.7rem;
+    border: 1px solid transparent;
+}
+
+.icon:hover {
+    border: 2px solid var(--color-backgroundColor1);
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+h6,
+h5 {
+    font-weight: 300;
+    margin: 10px;
+}
